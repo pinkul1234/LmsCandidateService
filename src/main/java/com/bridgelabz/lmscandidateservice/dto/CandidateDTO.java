@@ -16,5 +16,7 @@ public class CandidateDTO {
     private String state;
     private String preferredJobLocation;
     private String passedOutYear;
+    private String status;
+    private String candidateStatus;
 
 }

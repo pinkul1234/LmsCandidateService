@@ -26,6 +26,8 @@ public class CandidateModel {
     private String passedOutYear;
     private LocalDateTime creationTimeStamp;
     private LocalDateTime updatedTimeStamp;
+    private String status;
+    private String candidateStatus;
 
     public CandidateModel(CandidateDTO candidateDTO){
 
@@ -39,10 +41,14 @@ public class CandidateModel {
         this.state = candidateDTO.getState();
         this.preferredJobLocation = candidateDTO.getPreferredJobLocation();
         this.passedOutYear = candidateDTO.getPassedOutYear();
+        this.status = candidateDTO.getStatus();
 
     }
 
     public CandidateModel() {
 
+    }
+
+    public void setStatus(String newStatus) {
     }
 }
