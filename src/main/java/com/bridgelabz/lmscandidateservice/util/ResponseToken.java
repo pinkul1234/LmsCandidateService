@@ -2,15 +2,13 @@ package com.bridgelabz.lmscandidateservice.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Data
 @AllArgsConstructor
-public class Response {
-    private String message;
+@NoArgsConstructor
+@Data
+public class ResponseToken {
     private int errorCode;
-    private Object object;
-
-    public Response() {
-
-    }
+    private String message;
+    private Object token;
 }

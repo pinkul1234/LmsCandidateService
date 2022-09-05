@@ -64,7 +64,7 @@ public class SwaggerFoxConfig implements WebMvcConfigurer {
 
                 .select()
 
-                .apis(RequestHandlerSelectors.basePackage("com.bridgelabz.lmsproject"))
+                .apis(RequestHandlerSelectors.basePackage("com.bridgelabz.lmscandidateservice"))
 
                 .paths(PathSelectors.any())
 
@@ -139,7 +139,7 @@ public class SwaggerFoxConfig implements WebMvcConfigurer {
 
                 "Terms of service",
 
-                new Contact("Learner Management System", "http://bridgelabz.com&quot", "renish4488@gmail.com"),
+                new Contact("Learner Management System", "http://bridgelabz.com&quot", "pinkul5555@gmail.com"),
 
                 "Apache 2.0",
 
